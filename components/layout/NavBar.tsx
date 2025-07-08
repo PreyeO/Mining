@@ -67,10 +67,10 @@ const NavBar = () => {
               className="bg-black/90 text-white flex flex-col justify-start p-6 space-y-6"
             >
               <nav className="flex flex-col gap-4">
-                <MobileNavLink href="/about" label="Who We Are" />
-                <MobileNavLink href="/services" label="What We Do" />
+                <MobileNavLink href="#about" label="Who We Are" />
+                <MobileNavLink href="#services" label="What We Do" />
                 <MobileNavLink href="/royalty-owners" label="Royalty Owners" />
-                <MobileNavLink href="/blog" label="Visit Our Blog" />
+                <MobileNavLink href="#blog" label="Visit Our Blog" />
               </nav>
 
               <div className="mt-auto pt-6 border-t border-white/10">

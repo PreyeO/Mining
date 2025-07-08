@@ -57,7 +57,7 @@ const Impact = () => {
           className="mt-16"
         >
           <Image
-            src="/chevron.png"
+            src="/Chevron.png"
             alt="Chevron Logo"
             width={160}
             height={50}

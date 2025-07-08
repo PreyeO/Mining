@@ -45,7 +45,7 @@ const Typewriter = ({ phrases }: { phrases: string[] }) => {
 
 const Hero = () => {
   return (
-    <section className="relative bg-[#0e0e0e]/30 text-white overflow-hidden min-h-screen flex items-center justify-center">
+    <section className="relative bg-[#0e0e0e]/70 text-white overflow-hidden min-h-screen flex items-center justify-center">
       {/* Background Video */}
       <video
         autoPlay
