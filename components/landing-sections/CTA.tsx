@@ -23,7 +23,7 @@ const CTA = () => {
           viewport={{ once: true }}
           className="text-lg md:text-xl font-inter mb-10 text-gray-700"
         >
-          Let’s work together to build something extraordinary. Whether it's
+          Let’s work together to build something extraordinary. Whether {`it's`}{" "}
           powering industries, exploring new terrains, or expanding
           infrastructure. At Paret, every partnership is a step toward legacy.
         </motion.p>

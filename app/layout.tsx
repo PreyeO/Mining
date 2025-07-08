@@ -33,7 +33,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` ${poppins.variable} ${inter.variable} font-sans`}>
+      <head>
+        <link rel="icon" href="/logo.png" type="image/png" />
+      </head>
+      <body className={`${poppins.variable} ${inter.variable} font-sans`}>
         <NavBar />
         <StickyLogo />
         {children}
