@@ -33,7 +33,10 @@ const blogPosts = [
 
 const BlogSection = () => {
   return (
-    <section className="bg-white py-20 px-6 text-black" id="blog">
+    <section
+      className="bg-white  md:py-20 py-10 md:px-6 px-4 text-black"
+      id="blog"
+    >
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <motion.h2

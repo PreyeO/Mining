@@ -14,7 +14,7 @@ const points = [
 
 const WhyChooseUs = () => {
   return (
-    <section className="bg-white text-black py-20 px-6">
+    <section className="bg-white text-black  md:py-20 py-10 md:px-6 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
         <motion.h2
@@ -50,7 +50,7 @@ const WhyChooseUs = () => {
               viewport={{ once: true }}
               className="flex items-start gap-3 text-gray-800"
             >
-              <CheckCircle className="text-[#00c6ff] mt-1" size={20} />
+              <CheckCircle className="text-[#f97316]    mt-1" size={20} />
               <p className="font-inter">{point}</p>
             </motion.div>
           ))}

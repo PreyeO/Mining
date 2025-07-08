@@ -1,12 +1,12 @@
-import Expertise from "@/component/landing-sections/Expertise";
-import Hero from "@/component/landing-sections/Hero";
-import Impact from "@/component/landing-sections/Impact";
-import WhyChooseUs from "@/component/landing-sections/WhyChooseUs";
-import FounderMessage from "@/component/landing-sections/FounderMessage";
-import Projects from "@/component/landing-sections/Projects";
-import CTA from "@/component/landing-sections/CTA";
-import FAQSection from "@/component/landing-sections/FAQSection";
-import BlogSection from "@/component/landing-sections/BlogSection";
+import BlogSection from "@/components/landing-sections/BlogSection";
+import CTA from "@/components/landing-sections/CTA";
+import Expertise from "@/components/landing-sections/Expertise";
+import FAQSection from "@/components/landing-sections/FAQSection";
+import FounderMessage from "@/components/landing-sections/FounderMessage";
+import Hero from "@/components/landing-sections/Hero";
+import Impact from "@/components/landing-sections/Impact";
+import Projects from "@/components/landing-sections/Projects";
+import WhyChooseUs from "@/components/landing-sections/WhyChooseUs";
 
 export default function Home() {
   return (

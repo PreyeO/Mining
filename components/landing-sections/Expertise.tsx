@@ -44,7 +44,10 @@ const expertiseData = [
 
 const Expertise = () => {
   return (
-    <section className="bg-white py-20 px-6 text-black" id="expertise">
+    <section
+      className="bg-white md:py-20 py-10 md:px-6 px-4 text-black"
+      id="services"
+    >
       <div className="max-w-7xl mx-auto">
         {/* Section Heading */}
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 font-poppins">

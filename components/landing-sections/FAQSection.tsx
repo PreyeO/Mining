@@ -38,7 +38,10 @@ const faqs = [
 
 const FAQSection = () => {
   return (
-    <section className="bg-[#0f1111] text-white py-20 px-6" id="faq">
+    <section
+      className="bg-[#0f1111] text-white  md:py-20 py-10 md:px-6 px-4"
+      id="faq"
+    >
       <div className="max-w-4xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}

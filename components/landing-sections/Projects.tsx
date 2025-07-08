@@ -57,7 +57,10 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section className="bg-[#0f1111] text-white py-20 px-6" id="projects">
+    <section
+      className="bg-[#0f1111] text-white  md:py-20 py-10 md:px-6 px-4"
+      id="projects"
+    >
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 font-poppins">
           Featured Projects

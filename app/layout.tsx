@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Poppins, Inter } from "next/font/google";
 import "./globals.css";
-import NavBar from "@/component/layout/NavBar";
-import Footer from "@/component/layout/Footer";
 import StickyLogo from "@/components/ui/sticky-logo";
+import NavBar from "@/components/layout/NavBar";
+import Footer from "@/components/layout/Footer";
 
 const poppins = Poppins({
   weight: ["600", "700"],

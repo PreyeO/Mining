@@ -2,7 +2,6 @@
 
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import Image from "next/image";
 import { useEffect, useState } from "react";
 
 // Typewriter Component
@@ -65,10 +64,15 @@ const Hero = () => {
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="mt-12 relative z-20 bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl px-8 md:px-16 py-14 md:py-20 shadow-xl max-w-4xl w-full text-center"
+        className="md:mt-12 mt-20 relative z-20 bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl px-8 md:px-16 py-14 md:py-20 shadow-xl max-w-4xl w-full text-center"
       >
         {/* Static + Typewriter Heading */}
-        <h1 className=" font-poppins text-[32px] md:text-[52px] font-bold leading-[1.2] tracking-tight">
+        <h1 className=" md:hidden font-poppins text-[32px] md:text-[52px] font-bold leading-[1.2] tracking-tight">
+          Empowering Global Industries with <br />
+          <Typewriter phrases={["Mining", "Energy", "Infrastructure"]} /> <br />
+          Solutions
+        </h1>
+        <h1 className="hidden md:block font-poppins text-[32px] md:text-[52px] font-bold leading-[1.2] tracking-tight">
           Empowering Global Industries with{" "}
           <Typewriter phrases={["Mining", "Energy", "Infrastructure"]} />{" "}
           Solutions

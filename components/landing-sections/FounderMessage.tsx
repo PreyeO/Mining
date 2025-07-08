@@ -6,7 +6,10 @@ import Link from "next/link";
 
 const FounderMessage = () => {
   return (
-    <section className="bg-[#121212] text-white py-20 px-6">
+    <section
+      className="bg-[#121212] text-white  md:py-20 py-10 md:px-6 px-4"
+      id="about"
+    >
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         {/* Image */}
         <motion.div

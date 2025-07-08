@@ -9,9 +9,16 @@ const StickyLogo = () => {
       <Image
         src="/logo.png"
         alt="Paret Logo"
+        width={80}
+        height={80}
+        className="object-contain md:hidden"
+      />
+      <Image
+        src="/logo.png"
+        alt="Paret Logo"
         width={120}
         height={120}
-        className="object-contain"
+        className="object-contain hidden md:block"
       />
     </div>
   );
