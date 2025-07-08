@@ -6,7 +6,7 @@ import { CheckCircle } from "lucide-react";
 const points = [
   "Approved Chevron Petroleum Distributor",
   "Global Operations Across 25+ Countries",
-  "20+ Years of Excellence & Innovation",
+  "10+ Years of Excellence & Innovation",
   "Sustainable and Responsible Mining Practices",
   "World-Class Logistics and Port Infrastructure",
   "Commitment to Quality, Safety & Compliance",

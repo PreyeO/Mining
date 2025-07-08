@@ -8,7 +8,7 @@ const stats = [
   { label: "Countries Served", value: 25, suffix: "+" },
   { label: "Barrels Delivered", value: 10, suffix: "M+" },
   { label: "Global Clients", value: 1200, suffix: "+" },
-  { label: "Years of Excellence", value: 20, suffix: "+" },
+  { label: "Years of Excellence", value: 10, suffix: "+" },
 ];
 
 const Impact = () => {
