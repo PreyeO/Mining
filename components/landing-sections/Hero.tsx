@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 // Typewriter Component
@@ -90,12 +91,16 @@ const Hero = () => {
 
         {/* CTA Buttons */}
         <div className="flex justify-center flex-wrap gap-4 mt-10 font-inter">
-          <Button className="hover:scale-[1.05] px-8 py-6 cursor-pointer bg-[#00c6ff] text-black rounded-full hover:bg-[#00b4e0] transition-colors duration-300 font-semibold">
-            Explore Our Capabilities
-          </Button>
-          <Button className=" hover:scale-[1.05]  bg-white/10 px-8 py-6 cursor-pointer border border-white/30 text-white rounded-full transition-colors duration-300 font-semibold">
-            View Project Portfolio
-          </Button>
+          <Link href="#impact" className="">
+            <Button className="hover:scale-[1.05] px-8 py-6 cursor-pointer bg-[#00c6ff] text-black rounded-full hover:bg-[#00b4e0] transition-colors duration-300 font-semibold">
+              Explore Our Capabilities
+            </Button>
+          </Link>
+          <Link href="#projects" className="">
+            <Button className=" hover:scale-[1.05]  bg-white/10 px-8 py-6 cursor-pointer border border-white/30 text-white rounded-full transition-colors duration-300 font-semibold">
+              View Project Portfolio
+            </Button>
+          </Link>
         </div>
       </motion.div>
     </section>

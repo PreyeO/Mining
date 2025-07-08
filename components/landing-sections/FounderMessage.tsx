@@ -59,7 +59,7 @@ const FounderMessage = () => {
           {/* CTA */}
           <div className="mt-8">
             <Link
-              href="/about"
+              href="/abouts"
               className="inline-block bg-white text-black px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition"
             >
               Discover Our Story

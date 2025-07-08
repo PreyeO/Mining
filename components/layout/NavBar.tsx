@@ -64,7 +64,7 @@ const NavBar = () => {
             </SheetTrigger>
             <SheetContent
               side="top"
-              className="bg-black/90 text-white flex flex-col justify-start p-6 space-y-6"
+              className="h-screen w-screen bg-black/90 text-white flex flex-col justify-start p-6 space-y-6"
             >
               <nav className="flex flex-col gap-4">
                 <MobileNavLink href="#about" label="Who We Are" />

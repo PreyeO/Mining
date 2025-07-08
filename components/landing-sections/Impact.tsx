@@ -13,7 +13,10 @@ const stats = [
 
 const Impact = () => {
   return (
-    <section className="bg-[#0f1111] text-white  md:py-20 py-10 md:px-6 px-4">
+    <section
+      className="bg-[#0f1111] text-white  md:py-20 py-10 md:px-6 px-4"
+      id="impact"
+    >
       <div className="max-w-7xl mx-auto text-center">
         {/* Section Title */}
         <h2 className="text-3xl md:text-4xl font-bold mb-8 font-poppins">

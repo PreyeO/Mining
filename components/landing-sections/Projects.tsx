@@ -24,7 +24,7 @@ const projects = [
   {
     title: "Calcium Carbonate Plant",
     image: "/project3.jpg",
-    location: "Nigeria",
+    location: "Dubai",
     description:
       "Cutting-edge facility refining high-grade calcium carbonate for pharmaceuticals and manufacturing.",
     href: "/projects/calcium-carbonate",
@@ -103,14 +103,6 @@ const Projects = () => {
               </div>
             </motion.div>
           ))}
-        </div>
-
-        <div className="text-center mt-12">
-          <Link href="/projects">
-            <span className="inline-block bg-[#00c6ff] text-black px-8 py-4 rounded-full font-semibold hover:bg-[#00b4e0] transition font-inter">
-              View All Projects
-            </span>
-          </Link>
         </div>
       </div>
     </section>
