@@ -32,7 +32,7 @@ const projects = [
   {
     title: "Logistics Terminal Expansion",
     image: "/project6.jpg",
-    location: "Benin Port",
+    location: "Kentucky",
     description:
       "Integrated logistics hub expansion to support bulk mineral exports with world-class storage and shipping facilities.",
     href: "/projects/logistics-expansion",
